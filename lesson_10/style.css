@@ -1,0 +1,158 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.background {
+    background: url(images/bg.png);
+    width: 960px;
+    height: 883px;
+    margin: 0 auto;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: #e6e6e6;
+}
+
+.head {
+    width: 100%;
+    height: 205px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.palm {
+    width: 28%;
+    height: 16.65%;
+    background-position: right;
+    box-sizing: border-box;
+    margin-left: 6.5%;
+    margin-bottom: 0;
+    margin-top: 6.55%;
+}
+
+.palm>p {
+    margin-top: -11%;
+    text-align: center;
+    font-size: 11px;
+}
+
+.contact {
+    width: 18.3%;
+    height: 23.2%;
+    box-sizing: border-box;
+}
+
+.contact>h1 {
+    margin-top: 83%;
+    font-size: 10px;
+    margin-bottom: 9px;
+}
+
+.number {
+    font-size: 8px;
+}
+
+.mail {
+    font-size: 8px;
+    margin-bottom: 21px;
+}
+.first_line > img {
+    width: 100%;
+}
+.second_line > img {
+    width: 100%;
+}
+.firts_line {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    margin-bottom: 5%;
+}
+.second_line {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    margin-bottom: 15%;
+}
+
+.india,
+.bhutan {
+    text-align: center;
+    margin-right: 1%;
+}
+
+.nepal,
+.sri_lanka {
+    text-align: center;
+    margin-right: 1%;
+}
+
+.tibet,
+.maldives {
+    text-align: center;
+}
+
+.background>p {
+    text-align: center;
+}
+@media screen and (max-width: 960px){
+    .background {
+        width: 95%;
+        height: 95%;
+        background-size: 100%;
+    }
+
+    .photo {
+        width: 95%;
+        height: 95%;
+    }
+
+    .head {
+        height: 23%;
+    }
+
+    .background>p {
+        margin-top: 3.4%;
+    }
+
+
+    .logo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .palm {
+        margin-bottom: 1px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .background>p {
+        font-size: smaller;
+    }
+}
+    @media screen and (max-width: 480px) {
+        .head, .firts_line, .second_line {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+        .palm > p {
+            font-size: 13px;
+        }
+        .head {
+            width: 100%;
+        }
+        .palm {
+            width: 100%;
+            text-align: center;
+            margin: 0;
+        }
+        .contact {
+            width: 100%;
+            text-align: center;
+        }
+        .contact > h1 {
+            margin: 0;
+        }
+    }
